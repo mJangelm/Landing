@@ -1141,7 +1141,7 @@ top:500px;
     
     }
 
-@media  screen and (min-width:992px) and (max-width:1365px) {
+@media   (min-width:992px) and (max-width:1365px) {
 
         header .logo {
             position:relative;
