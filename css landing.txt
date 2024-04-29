@@ -1,0 +1,1486 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "Istok Web", sans-serif;
+    flex-wrap: wrap;
+}
+
+body {
+    background-color: rgb(90, 106, 185);
+}
+
+section {
+    position:relative;
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+header {
+    position:absolute;
+    top: 0px;
+    right: 80px;
+    width: 100%;
+    padding: 40px 100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    position:relative;
+    left: 150px;
+    color:white;
+    font-size: 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: rgb(137, 66,188);
+    border-radius: 5px;
+    padding: 0px 10px;
+    font-family: "Istok Web", sans-serif;;
+    font-weight: 600;
+}
+
+header .logo:hover {
+    color: rgb(137,66,188);
+    background: white;
+    transition: 1s;
+}
+
+header .navbar {
+    position: relative;
+    display: flex;
+    left: 50px;
+}
+
+header .navbar li {
+    list-style: none;
+    margin-left: 60px;
+}
+
+header .navbar li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600px;
+    padding: 10px;
+    transition: 0.5s;
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+
+header .navbar li a:hover {
+    border-bottom: 3px solid rgb(10, 6, 65);
+    color: rgb(21, 66, 163);
+    font-weight: bold;
+    transition: 0.5s;
+    padding: 2px;
+}
+/*Contenido de la web*/
+
+.contenido {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+}
+
+
+
+.contenido .tituloBox {
+    position: relative;
+    
+    top: 80%;
+    max-width: 100%;
+    text-align: center;
+    
+}
+
+
+
+.contenido .tituloBox h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    color:white
+}
+
+.contenido .tituloBox h2 span{
+   background: rgb(137, 66, 188);
+   color: white;
+   padding: 0 10px;
+   font-family: "Istok Web", sans-serif;
+   font-weight: 60px;
+   border-radius: 20px;
+}
+
+.contenido .tituloBox p {
+font-size: 1.8em;
+line-height: 1.5;
+color:white;
+font-family: "Istok Web", sans-serif;
+font-weight: 30;
+margin-bottom: 20px;
+}
+
+.contenido .tituloBox a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(137, 66, 188);
+    background: white;
+    padding: 10px 20px;
+    margin: left 30px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.contenido .tituloBox a:hover {
+    background: rgb(137,66,188);
+    color: white;
+   transition: 0.1s;
+
+}
+
+.contenido .imgBox {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 10%;
+    margin-bottom: 3%;
+    z-index: -5;
+}
+
+.contenido .imgBox img {
+    height: 80vh;
+}
+
+.contenido .imgBox img:hover {
+    height: 80vh;
+}
+
+#contacto {
+    font-weight: bold;
+    color : rgb(10, 6, 65);
+}
+
+#contacto:hover {
+    padding:0px;
+    border-bottom: 0px;
+}
+/*Copyright*/
+.copyright {
+    position: absolute;
+    top: 75%;
+    left: 600px;
+    margin-bottom: 20px;
+    padding:  100px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copycon {
+    position: absolute;
+    top: 140%;
+    left: 20%;
+    margin-bottom: 20px;
+    padding: 0 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copycon p {
+    color:white;
+    text-align:center;
+    margin-left: 140px;
+}
+
+.copyright p {
+    color:white;
+    text-align:center;
+    margin-left:100px;
+}
+
+.redesSociales {
+    position:absolute;
+ left: 45%;
+ top: 76%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    list-style: none;
+}
+
+
+.redesSociales li  {
+    padding:10px;
+}
+
+.redesSociales li a {
+    color:white;
+    font-size: 2.5em;
+    transition: 0.3s;
+}
+
+.redesSociales li a:hover {
+    
+padding: 1px;
+
+    filter: blur(1px)
+
+   
+}
+
+/*Formulario de Contacto*/
+
+fieldset {
+    position: relative;
+    height: 300px;
+    width: 200px;
+   font-family: "Istok Web", sans-serif;
+  }
+
+  fieldset #form2 {
+    font-family: "Istok Web", sans-serif;
+    font-size: 15px;
+  }
+
+  fieldset #form2:focus {
+    background-color: rgb(221, 219, 240);
+     }
+   
+
+  fieldset #caja {
+    width: 900px;
+    font-family: "Istok Web", sans-serif;
+    color: black;
+    font-size: 15px;
+  }
+
+fieldset :focus::placeholder {
+    opacity: 1;
+    width: 300px;
+    font-weight: bold;
+    font-family: "Istok Web", sans-serif;
+    color: black;
+    font-size: 15px;
+  }
+
+  fieldset #caja:focus {
+    background-color: rgb(221, 219, 240);
+     }
+   
+
+  fieldset #Datos {
+    color: white;
+    align-items: center;
+    text-align: center;
+  }
+
+  fieldset #enviar {
+    background-color: rgb(137, 66,188);
+    font-family: "Istok Web", sans-serif;
+    font-size: 15px;
+    color: white;
+    position: relative;
+    left: 300px;
+    
+  }
+
+  fieldset #enviar:hover {
+    background-color: white;
+    font-family: "Istok Web", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(137, 66,188);
+    transition: 0.3s;
+  }
+
+  fieldset #borrar {
+    background-color: rgb(137, 66,188);
+    font-family: "Istok Web", sans-serif;
+    font-size: 15px;
+    color: white;
+    position: relative;
+    left: 450px;
+  }
+
+  fieldset #borrar:hover {
+    background-color: red;
+    font-family: "Istok Web", sans-serif;
+    font-size: 15px;
+    color: white;
+    transition: 0.2s;
+  }
+
+.formulariobox {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+
+    
+}
+
+.formulariobox h2{
+    position: absolute;
+    left: 450px;
+    bottom: 300px;
+    font-size: 40px;
+    text-transform: uppercase;
+    color:white;
+}
+
+
+.formulariobox .formulario {
+    background-color: rgb(161, 162, 221);
+    position: relative;
+    display: flex;
+    top:  30px;
+    left: 100px;
+    
+}
+
+/*quien soy*/
+
+.contenido .imgBox2 {
+    position:absolute;
+    display: flex;
+    justify-content: flex-end;
+ left: 500px;
+    z-index: -5;
+}
+
+.contenido .imgBox2 img {
+    height: 70vh;
+    opacity: 0.2;
+    align-items: center;
+    text-align: center;
+}
+
+.imgBox2 {
+    position:absolute;
+    display: flex;
+    justify-content: flex-end;
+ left: 600px;
+    z-index: -5;
+}
+
+.imgBox2 img {
+    height: 70vh;
+    opacity: 0.2;
+    align-items: center;
+    text-align: center;
+}
+
+.copyq {
+    position: absolute;
+    top: 300px;
+    left: 230px;
+    margin-bottom: 20px;
+    padding: 0 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyq p {
+    color:white;
+    text-align:center;
+    margin-left: 140px;
+}
+
+.quiensoybox {
+    position: relative;
+    max-width: 700px;
+    
+    
+}
+
+.quiensoybox .quiensoy {
+position:relative;
+left: 450px;
+bottom: 50px;
+color:white;
+text-align:justify;
+font-size: 20px;
+font-weight: normal;
+transition: 0.2s;
+}
+
+.center {
+ 
+  text-align: center;
+}
+
+.contacta {
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+
+.contacta:hover {
+    text-decoration: none;
+    color:rgb(39, 13, 110);
+    font-weight: bold;
+}
+
+/*cv */
+
+.cvbox {
+    position: relative;
+    max-width: 900px;
+    
+    
+}
+
+.cvbox .cv {
+position:relative;
+left: 120px;
+bottom: 90px;
+color:white;
+text-align:justify;
+font-size: 20px;
+font-weight: normal;
+transition: 0.2s;
+}
+
+.cvbox li {
+    list-style: none;
+    font-weight: bold;
+}
+
+#titulo {
+    list-style: circle;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.copyCV {
+    position: absolute;
+    top: 800px;
+    left: 700px;
+    margin-bottom: 20px;
+    padding: 0 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyCV p {
+    color:white;
+    text-align:center;
+   
+}
+
+.Idiomas  {
+    position:absolute;
+    left:250px;
+    bottom: 200px;
+    color:white;
+text-align:justify;
+font-size: 20px;
+font-weight: bold;
+transition: 0.2s;
+}
+
+.carnet  {
+    position:absolute;
+    right:250px;
+    bottom: 200px;
+    color:white;
+text-align:justify;
+font-size: 20px;
+font-weight: bold;
+transition: 0.2s;
+}
+
+
+@media  screen and (min-width:800px) {
+
+.logo {
+    display: none;
+}
+
+.contenido .tituloBox {
+    position: relative;
+    
+    bottom: 35px;
+    
+    text-align: center;
+    width: 100%;
+    
+}
+
+
+
+.contenido .tituloBox h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    color:white
+}
+
+.contenido .tituloBox .frase{
+    font-size: 20px;
+    text-transform: uppercase;
+    color:white;
+}
+
+
+
+header .navbar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.9em;
+    padding: 10px;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+header {
+    position:absolute;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    padding: 20px 0px;
+    margin-right: 40px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header .navbar li {
+    list-style: none;
+    margin-left: 5px;
+}
+
+.contenido .imgBox {
+    width: 225px;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 10%;
+    margin-bottom: 3%;
+    z-index: -5;
+    flex-wrap: wrap;
+}
+
+.contenido .imgBox img {
+    height: 30vh;
+    flex-wrap: wrap;
+}
+
+.redesSociales {
+    position:absolute;
+ left: 35%;
+ top: 80%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    list-style: none;
+}
+
+
+.redesSociales li  {
+    padding:10px;
+}
+
+.copyright {
+    position: absolute;
+    top: 73%;
+    left:-50px;
+    display: block;
+    justify-content: justify;
+}
+
+.contenido .tituloBox a:hover {
+    background: rgb(137,66,188);
+    color: white;
+   transition: 0.1s;
+
+}
+
+
+
+
+
+}
+
+@media  screen and (min-width:896px) {
+
+
+ 
+        .logo {
+            display: none;
+        }
+        
+        .contenido .tituloBox {
+            position: relative;
+            
+            bottom: 50px;
+            
+            text-align: center;
+            width: 100%;
+            
+        }
+        
+        .contenido .tituloBox h2{
+            font-size: 20px;
+            text-transform: uppercase;
+            color:white
+        }
+        
+        .contenido .tituloBox .frase{
+            font-size: 20px;
+            text-transform: uppercase;
+            color:white;
+        }
+        
+        
+        
+        header .navbar li a{
+            text-decoration: none;
+            color: white;
+            font-size: 12px;
+            padding: 10px;
+            transition: 0.5s;
+            text-transform: uppercase;
+        }
+        
+        header {
+            position:absolute;
+            top: 0px;
+            right: 0px;
+            width: 100%;
+            padding: 20px 0px;
+            margin-right: 40px;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        
+        header .navbar li {
+            list-style: none;
+            margin-left: 5px;
+        }
+        
+        .contenido .imgBox {
+            width: 235px;
+            display: flex;
+            justify-content: flex-end;
+            padding-left: 10%;
+            margin-bottom: 3%;
+            z-index: -5;
+            flex-wrap: wrap;
+        }
+        
+        .contenido .imgBox img {
+            height: 30,5vh;
+            flex-wrap: wrap;
+        }
+        
+        .redesSociales {
+            position:absolute;
+         left: 35%;
+         top: 80%;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            list-style: none;
+        }
+        
+        
+        .redesSociales li  {
+            padding:10px;
+        }
+        
+        .copyright {
+            position: absolute;
+            top: 75%;
+            left:-100px;
+            display: block;
+            justify-content: justify;
+        }
+
+        .contenido .tituloBox a {
+           font-size: 9px;
+           font-weight: bold;
+        }
+
+}
+
+
+
+
+
+@media  screen and (min-width:576px) {
+
+    .logo {
+        display: none;
+    }
+    
+    .contenido .tituloBox {
+        position: relative;
+        
+        bottom: 40px;
+        right:20px;
+        
+        text-align: center;
+        width: 100%;
+        
+    }
+    
+    
+    
+    .contenido .tituloBox h2{
+        font-size: 26px;
+        text-transform: uppercase;
+        color:white
+    }
+    
+    .contenido .tituloBox .frase{
+        font-size: 20px;
+        text-transform: uppercase;
+        color:white;
+    }
+    
+    
+    
+    header .navbar li a{
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        padding: 18px;
+        transition: 0.5s;
+        text-transform: uppercase;
+    }
+    
+    header {
+        position:absolute;
+        top: 0px;
+        right: 0px;
+        width: 100%;
+        padding: 20px 0px;
+        margin-right: 40px;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    
+    header .navbar li {
+        list-style: none;
+        margin-left: 5px;
+    }
+    
+    .contenido .imgBox {
+        width: 350px;
+        display: flex;
+        justify-content: flex-end;
+        padding-left: 36%;
+        margin-bottom: 3%;
+        z-index: -5;
+        flex-wrap: wrap;
+        
+    }
+    
+    .contenido .imgBox img {
+        height: 35vh;
+        flex-wrap: wrap;
+        
+    }
+    
+    .redesSociales {
+        position:absolute;
+     left: 35%;
+     top: 80%;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        list-style: none;
+    }
+    
+    
+    .redesSociales li  {
+        padding:10px;
+    }
+    
+    .copyright {
+        position: absolute;
+        top: 76%;
+        left:-100px;
+        display: block;
+        justify-content: justify;
+    }
+    
+    .contenido .tituloBox a:hover {
+        background: rgb(137,66,188);
+        color: white;
+       transition: 0.1s;
+    
+    }
+    
+    
+    
+    
+    
+    }
+
+    @media  screen and (min-width:1366px) and (max-height:768px)  {
+
+    
+        
+        .contenido .tituloBox {
+            position: relative;
+            
+            
+            bottom:30px;
+            left:-350px;
+            
+            text-align: center;
+            width: 100%;
+            
+        }
+        
+        
+        
+        .contenido .tituloBox h2{
+            font-size: 26px;
+            text-transform: uppercase;
+            color:white
+        }
+        
+        .contenido .tituloBox .frase{
+            font-size: 20px;
+            text-transform: uppercase;
+            color:white;
+        }
+        
+        
+   
+        
+        .contenido .imgBox {
+           
+            display: flex;
+    
+            z-index: -5;
+            flex-wrap: wrap;
+        }
+
+      
+        
+        .contenido .imgBox img {
+           position:absolute;
+  left:690px;
+bottom:-180px;
+height: 80vh;
+            flex-wrap: wrap;
+        }
+        
+        .redesSociales {
+            position:absolute;
+         left: 45%;
+         top: 80%;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            list-style: none;
+        }
+        
+        
+        .redesSociales li  {
+            padding:10px;
+        }
+        
+        .copyright {
+            position: absolute;
+            top: 76%;
+            left:300px;
+            display: block;
+            justify-content: justify;
+        }
+        
+        .contenido .tituloBox a:hover {
+            background: rgb(137,66,188);
+            color: white;
+           transition: 0.1s;
+        
+        }
+        
+        header .navbar {
+            position: relative;
+            display: flex;
+            left: 50px;
+        }
+        
+        header .navbar li {
+            list-style: none;
+            margin-left: 60px;
+        }
+        
+        header .navbar li a{
+        
+            text-decoration: none;
+            color: white;
+            font-weight: 600px;
+            padding: 5px;
+            transition: 0.5s;
+            font-size: 1.3em;
+            text-transform: uppercase;
+        }
+
+        header .logo {
+            display:inline;
+            left:80px;
+        }
+        
+        /*Formulario de Contacto*/
+
+fieldset {
+    position: relative;
+    height: 300px;
+    width: 200px;
+   font-family: "Istok Web", sans-serif;
+  }
+
+  fieldset #form2 {
+    font-family: "Istok Web", sans-serif;
+    font-size: 15px;
+  }
+
+  fieldset #form2:focus {
+    background-color: rgb(221, 219, 240);
+     }
+   
+
+  fieldset #caja {
+    width: 900px;
+    font-family: "Istok Web", sans-serif;
+    color: black;
+    font-size: 15px;
+  }
+
+fieldset :focus::placeholder {
+    opacity: 1;
+    width: 300px;
+    font-weight: bold;
+    font-family: "Istok Web", sans-serif;
+    color: black;
+    font-size: 15px;
+  }
+
+  fieldset #caja:focus {
+    background-color: rgb(221, 219, 240);
+     }
+   
+
+  fieldset #Datos {
+    color: white;
+    align-items: center;
+    text-align: center;
+  }
+
+  fieldset #enviar {
+    background-color: rgb(137, 66,188);
+    font-family: "Istok Web", sans-serif;
+    font-size: 15px;
+    color: white;
+    position: relative;
+    left: 300px;
+    
+  }
+
+  fieldset #enviar:hover {
+    background-color: white;
+    font-family: "Istok Web", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(137, 66,188);
+    transition: 0.3s;
+  }
+
+  fieldset #borrar {
+    background-color: rgb(137, 66,188);
+    font-family: "Istok Web", sans-serif;
+    font-size: 15px;
+    color: white;
+    position: relative;
+    left: 450px;
+  }
+
+  fieldset #borrar:hover {
+    background-color: red;
+    font-family: "Istok Web", sans-serif;
+    font-size: 15px;
+    color: white;
+    transition: 0.2s;
+  }
+
+.formulariobox {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+
+    
+}
+
+.formulariobox h2{
+    position: absolute;
+    left: 450px;
+    bottom: 300px;
+    font-size: 40px;
+    text-transform: uppercase;
+    color:white;
+}
+
+
+.formulariobox .formulario {
+    background-color: rgb(161, 162, 221);
+    position: relative;
+    display: flex;
+    top:  30px;
+    left: 100px;
+    
+}
+
+/*quien soy*/
+
+.contenido .imgBox2 {
+    position:absolute;
+    display: flex;
+    justify-content: flex-end;
+ left: 380px;
+    z-index: -5;
+}
+
+.contenido .imgBox2 img {
+    height: 70vh;
+    opacity: 0.2;
+    align-items: center;
+    text-align: center;
+}
+
+.imgBox2 {
+    position:absolute;
+    display: flex;
+    justify-content: flex-end;
+ left: 500px;
+    z-index: -5;
+}
+
+.imgBox2 img {
+    height: 70vh;
+    opacity: 0.2;
+    align-items: center;
+    text-align: center;
+}
+
+.copyq {
+    position: absolute;
+    top: 300px;
+    left: 230px;
+    margin-bottom: 20px;
+    padding: 0 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyq p {
+    color:white;
+    text-align:center;
+    margin-left: 140px;
+}
+
+.quiensoybox {
+    position: relative;
+    max-width: 700px;
+    
+    
+}
+
+.quiensoybox .quiensoy {
+position:relative;
+left: 230px;
+bottom: 20px;
+color:white;
+text-align:justify;
+font-size: 20px;
+font-weight: normal;
+transition: 0.2s;
+}
+
+.center {
+ 
+  text-align: center;
+}
+
+.contacta {
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+
+.contacta:hover {
+    text-decoration: none;
+    color:rgb(39, 13, 110);
+    font-weight: bold;
+}
+
+header .navbar {
+    position: relative;
+    display: flex;
+    left: 3px;
+}
+
+header .navbar li {
+    list-style: none;
+    margin-left: 60px;
+}
+
+        
+        
+        
+        }
+
+        @media  screen and (min-width:992px)  {
+
+            .logo {
+                display: none;
+            }
+            
+            .contenido .tituloBox {
+                position: relative;
+                
+                
+                bottom:30px;
+                left:-350px;
+                
+                text-align: center;
+                width: 100%;
+                
+            }
+            
+            
+            
+            .contenido .tituloBox h2{
+                font-size: 26px;
+                text-transform: uppercase;
+                color:white
+            }
+            
+            .contenido .tituloBox .frase{
+                font-size: 20px;
+                text-transform: uppercase;
+                color:white;
+            }
+            
+            
+       
+            
+            .contenido .imgBox {
+               
+                display: flex;
+        
+                z-index: -5;
+                flex-wrap: wrap;
+            }
+    
+          
+            
+            .contenido .imgBox img {
+               position:absolute;
+      left:690px;
+    bottom:-180px;
+    height: 80vh;
+                flex-wrap: wrap;
+            }
+            
+            .redesSociales {
+                position:absolute;
+             left: 45%;
+             top: 80%;
+                display:flex;
+                justify-content:space-between;
+                align-items:center;
+                list-style: none;
+            }
+            
+            
+            .redesSociales li  {
+                padding:10px;
+            }
+            
+            .copyright {
+                position: absolute;
+                top: 76%;
+                left:300px;
+                display: block;
+                justify-content: justify;
+            }
+            
+            .contenido .tituloBox a:hover {
+                background: rgb(137,66,188);
+                color: white;
+               transition: 0.1s;
+            
+            }
+            
+            header .navbar {
+                position: relative;
+                display: flex;
+                left: 50px;
+            }
+            
+            header .navbar li {
+                list-style: none;
+                margin-left: 60px;
+            }
+            
+            header .navbar li a{
+            
+                text-decoration: none;
+                color: white;
+                font-weight: 600px;
+                padding: 5px;
+                transition: 0.5s;
+                font-size: 1.3em;
+                text-transform: uppercase;
+            }
+    
+            header .logo {
+                display:inline;
+                left:80px;
+            }
+            
+            /*Formulario de Contacto*/
+    
+    fieldset {
+        position: relative;
+        height: 300px;
+        width: 200px;
+       font-family: "Istok Web", sans-serif;
+      }
+    
+      fieldset #form2 {
+        font-family: "Istok Web", sans-serif;
+        font-size: 15px;
+      }
+    
+      fieldset #form2:focus {
+        background-color: rgb(221, 219, 240);
+         }
+       
+    
+      fieldset #caja {
+        width: 900px;
+        font-family: "Istok Web", sans-serif;
+        color: black;
+        font-size: 15px;
+      }
+    
+    fieldset :focus::placeholder {
+        opacity: 1;
+        width: 300px;
+        font-weight: bold;
+        font-family: "Istok Web", sans-serif;
+        color: black;
+        font-size: 15px;
+      }
+    
+      fieldset #caja:focus {
+        background-color: rgb(221, 219, 240);
+         }
+       
+    
+      fieldset #Datos {
+        color: white;
+        align-items: center;
+        text-align: center;
+      }
+    
+      fieldset #enviar {
+        background-color: rgb(137, 66,188);
+        font-family: "Istok Web", sans-serif;
+        font-size: 15px;
+        color: white;
+        position: relative;
+        left: 300px;
+        
+      }
+    
+      fieldset #enviar:hover {
+        background-color: white;
+        font-family: "Istok Web", sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        color: rgb(137, 66,188);
+        transition: 0.3s;
+      }
+    
+      fieldset #borrar {
+        background-color: rgb(137, 66,188);
+        font-family: "Istok Web", sans-serif;
+        font-size: 15px;
+        color: white;
+        position: relative;
+        left: 450px;
+      }
+    
+      fieldset #borrar:hover {
+        background-color: red;
+        font-family: "Istok Web", sans-serif;
+        font-size: 15px;
+        color: white;
+        transition: 0.2s;
+      }
+    
+    .formulariobox {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    
+        
+    }
+    
+    .formulariobox h2{
+        position: absolute;
+        left: 450px;
+        bottom: 300px;
+        font-size: 40px;
+        text-transform: uppercase;
+        color:white;
+    }
+    
+    
+    .formulariobox .formulario {
+        background-color: rgb(161, 162, 221);
+        position: relative;
+        display: flex;
+        top:  30px;
+        left: 100px;
+        
+    }
+    
+    /*quien soy*/
+    
+    .contenido .imgBox2 {
+        position:absolute;
+        display: flex;
+        justify-content: flex-end;
+     left: 380px;
+        z-index: -5;
+    }
+    
+    .contenido .imgBox2 img {
+        height: 70vh;
+        opacity: 0.2;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .imgBox2 {
+        position:absolute;
+        display: flex;
+        justify-content: flex-end;
+     left: 500px;
+        z-index: -5;
+    }
+    
+    .imgBox2 img {
+        height: 70vh;
+        opacity: 0.2;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .copyq {
+        position: absolute;
+        top: 300px;
+        left: 230px;
+        margin-bottom: 20px;
+        padding: 0 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .copyq p {
+        color:white;
+        text-align:center;
+        margin-left: 140px;
+    }
+    
+    .quiensoybox {
+        position: relative;
+        max-width: 700px;
+        
+        
+    }
+    
+    .quiensoybox .quiensoy {
+    position:relative;
+    left: 230px;
+    bottom: 20px;
+    color:white;
+    text-align:justify;
+    font-size: 20px;
+    font-weight: normal;
+    transition: 0.2s;
+    }
+    
+    .center {
+     
+      text-align: center;
+    }
+    
+    .contacta {
+        text-decoration: none;
+        color:white;
+        font-weight: bold;
+    }
+    
+    .contacta:hover {
+        text-decoration: none;
+        color:rgb(39, 13, 110);
+        font-weight: bold;
+    }
+    
+    header .navbar {
+        position: relative;
+        display: flex;
+        left: 3px;
+    }
+    
+    header .navbar li {
+        list-style: none;
+        margin-left: 60px;
+    }
+    
+            
+            
+            
+            }
+
+
+        
