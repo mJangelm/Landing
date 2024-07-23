@@ -520,6 +520,8 @@ transition: 0.2s;
 
 }
 
+
+
 @media  screen and (min-width:375px) and (max-width:575px) {
 
 /*Formulario de Contacto*/
@@ -1141,7 +1143,7 @@ top:500px;
     
     }
 
-@media   (min-width:992px) and (max-width:1365px) {
+@media  screen and (min-width:992px) and (max-width:1365px) {
 
         header .logo {
             position:relative;
